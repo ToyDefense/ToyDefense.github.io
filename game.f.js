@@ -4445,7 +4445,7 @@ var ExternalAPI = {
     type: "coolmath",
     init: function() {
         var t = window.location.hostname || window.location.host;
-        if (["localhost", "192.168.1.41", "spy.games235.com", "toydefense.github.io", "playtomax.com", "portal.playtomax.com", "adm.playtomax.com", "coolmath-games.com", "coolmathgames.com", "www.coolmath-games.com", "www.coolmathgames.com", "m.coolmathgames.com", "m.coolmath-games.com", "m-stage.coolmathgames.com", "m-stage.coolmath-games.com", "edit.coolmath-games.com", "edit.coolmathgames.com", "www.stage.coolmath-games.com", "www.stage.coolmathgames.com", "stage.coolmath-games.com", "stage.coolmathgames.com", "edit-stage.coolmath-games.com", "edit-stage.coolmathgames.com", "dev.coolmathgames.com", "dev.coolmath-games.com"].indexOf(t) < 0)
+        if (["localhost", "192.168.1.41", "spy.games235.com", "playtomax.com", "portal.playtomax.com", "adm.playtomax.com", "coolmath-games.com", "coolmathgames.com", "www.coolmath-games.com", "www.coolmathgames.com", "m.coolmathgames.com", "m.coolmath-games.com", "m-stage.coolmathgames.com", "m-stage.coolmath-games.com", "edit.coolmath-games.com", "edit.coolmathgames.com", "www.stage.coolmath-games.com", "www.stage.coolmathgames.com", "stage.coolmath-games.com", "stage.coolmathgames.com", "edit-stage.coolmath-games.com", "edit-stage.coolmathgames.com", "dev.coolmathgames.com", "dev.coolmath-games.com"].indexOf(t) < 0)
             throw Error("Host error");
         window.addEventListener("keydown", ExternalAPI.preventKeyScroll, !1),
         document.body.addEventListener("keydown", ExternalAPI.preventKeyScroll, !1)
